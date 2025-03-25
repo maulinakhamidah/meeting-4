@@ -47,9 +47,13 @@ for (i = i; i <= n - 1; i++)
 
  while (j >= 0 && arr[j] > temp) // Step 4
 {
-arr[j + 1] = arr[j]; // Step 5
+arr[j + 1] = arr[j]; // Step 4a
+j--; // Step 4b
 }
+
+arr[j + 1] = temp; // Step 5
 }
+
 
 
 }
