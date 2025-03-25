@@ -53,6 +53,16 @@ j--; // Step 4b
 
 arr[j + 1] = temp; // Step 5
 }
+}
+
+void display ()
+{
+cout << endl; // Output baris kosong
+cout << "================================" << endl;
+cout << "Total passs = " << n - 1 << endl; // cout element movement
+cout << "================================" << endl; // Output ke layar
+cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+cout <<  "================================" << endl; // Output ke layar
 
 
 
